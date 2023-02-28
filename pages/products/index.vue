@@ -10,12 +10,6 @@
 </template>
 
 <script setup>
-  /*
-    Todo el código dentro del script setup se puede ejecutar tanto en el servidor (para injectarlo en el template y enviarlo renderizado),
-    como también en el cliente cuando ya tenemos la página renderizada y navegamos a otra.
-    Y esto es importantee porque hay ciertas declaraciones que no se pueden ejecutar en ambos lados.
-    El objeto window funcinona en el cliente pero no existe en el servidor.
-  */
 
   const { data: products, pending } = await useLazyFetch('/api/products', {
     transform: (products) => products.data

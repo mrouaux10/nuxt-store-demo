@@ -13,12 +13,14 @@ npm init nuxt-app <project-name>
 
 Instalación de dependencias:
 
-```
+```bash
 # yarn
 yarn install
 
 # npm
 npm install
+
+```
 
 ## Inicialización del servidor
 
@@ -26,4 +28,5 @@ Por defecto inicializa en http://localhost:3000
 
 ```bash
 npm run dev
+
 ```

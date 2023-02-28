@@ -7,7 +7,7 @@ Enlace a la Documentación: https://nuxt.com/docs/getting-started/introduction.
 ```bash
 npm init nuxt-app <project-name>
 
-```bash
+```
 
 ## Setup
 

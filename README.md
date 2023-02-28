@@ -1,6 +1,6 @@
 # Nuxt 3: Demo
 
-Click [aquí] para acceder a la Documentación. (https://nuxt.com/docs/getting-started/introduction).
+Enlace a la Documentación: https://nuxt.com/docs/getting-started/introduction.
 
 ## Creación del proyecto
 
@@ -13,7 +13,7 @@ npm init nuxt-app <project-name>
 
 Instalación de dependencias:
 
-```bash
+```
 # yarn
 yarn install
 

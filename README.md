@@ -5,7 +5,7 @@ Enlace a la Documentación: https://nuxt.com/docs/getting-started/introduction.
 ## Creación del proyecto
 
 ```bash
-npm init nuxt-app <project-name>
+npx nuxi init <project-name>
 
 ```
 

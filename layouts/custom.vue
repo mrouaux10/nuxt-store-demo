@@ -8,7 +8,7 @@
     </header> 
 
       <!-- Page content -->
-    <div class="container mx-auto p-4">
+    <div class="mx-auto p-4">
       <slot />
     </div>
 
@@ -21,11 +21,3 @@
     </footer>
   </div>
 </template>
-
-<script setup>
-
-</script>
-
-<style lang="scss" scoped>
-
-</style>

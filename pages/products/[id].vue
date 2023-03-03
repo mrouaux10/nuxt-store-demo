@@ -7,7 +7,8 @@
 <script setup>
 
 const { id } = useRoute().params
-const { data: product } = await useFetch('/api/products/' + id, {
+const uri = '/api/products/' + id
+const { data: product } = await useFetch(uri, {
   transform: (product) => product.data
 })
 

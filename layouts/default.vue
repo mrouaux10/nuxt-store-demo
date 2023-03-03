@@ -14,14 +14,10 @@
   </div>
 
   <!-- Page content -->
-  <div class="container mx-auto p-4">
+  <div class="mx-auto p-4">
     <slot />
   </div>
 </template>
-
-<script setup>
-
-</script>
 
 <style lang="scss" scoped>
 .router-link-exact-active {
